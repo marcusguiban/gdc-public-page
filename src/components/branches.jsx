@@ -52,7 +52,7 @@ export const Branches = () => {
                     > We are located at #249 V. Aguistin Bldg., Panapaan 1, Bacoor City, Cavite </Typography>
                 </Grid>
                 <Grid item md={6} sm={12} align="center">
-                    <img src={Panapaan} className="map" alt="Panapaan map" width={400} data-aos="fade-left" data-aos-duration="2000"></img>
+                    <img src={Panapaan} className="map" alt="Panapaan map" data-aos="fade-left" data-aos-duration="2000"></img>
                 </Grid>
             </Grid>
     </div>
@@ -112,7 +112,7 @@ export const Branches = () => {
     </div>
     <div id="Dasmarinas-container" className="branch-container">
         <Stack className="cdsHeading" data-aos="fade-up">
-            <h2 style={{ fontFamily: "   Abril Fatface,sans-serif", letterSpacing: "4px" }}>DASNARINAS BRANCH</h2>
+            <h2 style={{ fontFamily: "   Abril Fatface,sans-serif", letterSpacing: "4px", textAlign:"center" }}>DASNARINAS BRANCH</h2>
         </Stack>
             <Grid container>
                 <Grid item md={6} sm={12} align="center">
