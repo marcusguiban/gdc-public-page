@@ -59,7 +59,7 @@ export const Homepage = () => {
             </h2>
               
             <div  data-aos="zoom-in" data-aos-duration="2000">
-            <Link to="/CoontactUs" className="home-link">
+            <Link to="/ContactUs" className="home-link">
             <Typography
               variant="h3"
               textAlign={"center"} letterSpacing={2}>
