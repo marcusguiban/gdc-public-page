@@ -854,11 +854,8 @@ html {
   }
 }
 @media only screen and (max-width: 1200px){
-  .link-image {
-    height: 300px;
+  .link-image img{
+    height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
