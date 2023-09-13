@@ -1,0 +1,862 @@
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('./utilities/abril-fatface/AbrilFatface-Regular.otf') format('truetype'); /* adjust the path accordingly */
+  /* You can also specify other font file formats (e.g., WOFF, WOFF2) here */
+}
+
+.nav-links{
+  text-decoration: none;
+  color: white;
+
+}
+.nav-links:hover{
+color: black;
+}
+.dropbtn {
+  color: white;
+  background-color: pink;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  height: 100px;
+  letter-spacing: 2px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  letter-spacing: 2px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content :hover {background-color: pink;
+color: white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* drawer css */
+.drawer-container{
+  height: 1000px;
+  background-color: pink;
+
+}
+.drawer-nav{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding:2px 0px;
+  border-bottom: 2px solid white;
+  
+}
+
+.drawer-nav-list{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 30px;
+  padding:3px 0px;
+  border-bottom: 2px solid white;
+}
+.drawer-header {
+  display: flex;
+  background-color: pink;
+  justify-content: flex-end; /* Position the close icon on the right side */
+  padding: 8px; /* Adjust padding as needed */
+}
+
+
+
+
+
+
+
+/* header homepage  */
+
+.home-container1{
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s;
+
+}
+.home-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+/* YourComponent.css */
+
+
+.home-link {
+  text-decoration: none; /* Remove underline by default */
+  color: white; /* Set the text color to white */
+  background-color: black; /* Set the background color to black */
+  padding: 10px 30px; /* Add some padding to the link */
+  display: inline-block; /* Make the link a block element to set width and height */
+  transition: background-color 0.5s, color 0.5s; /* Add smooth transitions for background and text color */
+  }
+
+.home-link:hover {
+  background-color: white; /* Change the background color to white on hover */
+  color: black; /* Change the text color to black on hover */
+}
+.home-header h1{
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: 'Abril Fatface',sans-serif;
+}
+.home-header h2{
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-family: 'Abril Fatface',sans-serif;
+}
+.home-header h3{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  
+}
+.line{
+  background-color: pink;
+  height: 4px;
+  width: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home container 2 */
+.home-container2{
+  margin: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding: 50px 100px;
+}
+.home-content2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+
+
+/* animation home container 2 */
+.grid-item {
+  animation: fadeInUp 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.grid-item2 {
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home container 3 */
+.service-link-container{
+  margin-top: 40px;
+  padding-left: 40%;
+  margin-bottom: 40px;
+}
+.services-link{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 15px 30px;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  transition: background-color 0.5s, color 0.5s;
+}
+.content3{
+  margin: 10px;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 100px;
+  padding-left: 20%;
+}
+
+.content3 p{
+  font-style: arial;
+}
+.content-container-3{
+  background-color: rgb(255, 233, 237);
+}
+.services-link:hover{
+background-color: white;
+color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home content 4 */
+.home-container4{
+  background: url("./images/One-Lux-Clinic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home4-content1{
+  padding-left: 10%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+.testimonial-text{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.star-and-name{
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+.link-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  color: white;
+}
+
+.link-image {
+  height: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* homepage container 5 */
+.heading-container5{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.before-and-after-img{
+  max-width: 350px;
+  padding-top: 30px;
+}
+.home-content5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gallery-link{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+.gallery-link:hover{
+  background-color: white;
+  color: black;
+}
+.home-container5 {
+  padding: 5%;
+  padding-left: 100px;
+}
+
+.gallery-link2{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+  background-color: rgb(255, 233, 237);
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 4px solid pink;
+}
+.logo-footer{
+max-width: 250px;
+padding: 20px;
+}
+.footer-icon{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  padding-left: 20px;
+}
+.credits{
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CDS page */
+.cdsContainer{
+
+  background: url("./images/One-Lux-Clinic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cdsHeading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.cds-layer{
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: 60px;
+  padding: 5% 10%;
+}
+.cdsHeading p{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.innovation{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.number-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.number-container h2{
+  font-size: 20px;
+  margin: 0px;
+}
+.number-container p{
+  font-size: 18px;
+  margin: 0px;
+}
+.innovation-container{
+  display: flex;
+  justify-content: center;
+}
+.affiliations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.affiliations-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* our doctors page */
+.doctors-heading{
+padding-top: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.doctors-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 200px;
+
+}
+
+.doctor {
+  text-align: center;
+  margin: 10px;
+  position: relative;
+  padding: 15px;
+
+}
+
+.doctor img {
+  width: 100%;
+  max-width: 300px; /* Adjust the width as needed */
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  min-height: 100%;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  padding-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+.info h3 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.info p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.doctor:hover img {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.bg-container{
+
+  background: url("./images/One-Lux-Clinic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.doctors-layer{
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+.layer2{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.bg2-container{  background: url("./images/One-Lux-Clinic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;}
+.doctor-position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.info2{
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  z-index: 1; /* Bring the text content above the image */
+}
+.image-overlay{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+
+
+
+
+/* Services Container */
+.services-container{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.services-summary{
+  display: flex;
+  justify-content: center;
+}
+.services-box{
+  background-color: rgb(240, 240, 240);
+  margin: 10px;
+}
+.services-column :hover{
+  background-color: pink;
+}
+.services-box p{
+padding: 5px 20px;
+margin: 0;
+font-size: 18px;
+}
+.services-box h4{
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+  color: grey;
+}
+.services-subcontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-subcontent-img{
+  width: 50%;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+/* gallery container */
+.gallery-container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.gallery-container-img img{
+  max-width: 400px;
+  margin: 20px;
+}
+.office-container-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.office-container-img img{
+  max-width: 600px;
+  margin: 20px;
+}
+
+
+
+
+
+/* FAQs page */
+
+.question-container{
+  margin-top: 20px;
+  background-color: pink;
+  color: white;
+}
+.answer-container{
+  background-color: transparent;
+}
+
+/* branches page */
+.branch-container{
+  padding-top: 40px;
+}
+.branches-link-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+
+
+
+/* Contact Us  */
+.form-container{
+  margin-top: 40px;
+}
+/* responsiveness */
+@media only screen and (max-width: 600px ) {
+
+  .home-header{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .home-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .content3{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    
+  .footer{
+    background-color: rgb(255, 233, 237);
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: 4px solid pink;
+  }
+  .services-box p{
+      display: none;
+    }
+    .services-summary{
+      display: block;
+      justify-content: center;
+    }
+    .services-box {
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+    .services-subcontent{
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+}
+@media only screen and (max-width: 850px){
+  .link-image {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .doctor-position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-container-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .home-header {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .gallery-link{
+    display: none;
+  }
+  .beforeandafter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-link2{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    width: 150px;
+    transition: background-color 0.5s, color 0.5s;
+   font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+  }
+  .gallery-link2:hover {
+    background-color: white;
+    color: black;
+  }
+  .home-container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .office-container-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+}
