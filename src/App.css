@@ -754,7 +754,7 @@ html {
     
     .link-image {
       /* Adjust image styles for smaller screens */
-      max-width: 80%;
+      max-width: 100%;
     }
   }
 
