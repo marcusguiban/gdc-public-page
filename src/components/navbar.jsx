@@ -15,7 +15,7 @@ export const NavbarMUI = () => {
 
   return (
     <>
-    <AppBar position="fixed" style={{ background: "pink", 
+    <AppBar position="fixed" style={{ background: "rgba(255, 192, 203, 0.7)",
     }}>
       <Container maxWidth="xl" width="100%">
         <Toolbar>

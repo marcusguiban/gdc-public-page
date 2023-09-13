@@ -15,7 +15,7 @@ color: black;
 }
 .dropbtn {
   color: white;
-  background-color: pink;
+ background-color: inherit;
   padding: 16px;
   font-size: 16px;
   border: none;
